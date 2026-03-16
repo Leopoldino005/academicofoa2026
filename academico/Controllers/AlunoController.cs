@@ -6,7 +6,10 @@ namespace academico.Controllers
     public class AlunoController : Controller
     {
         private static List<Aluno> alunos = new List<Aluno>();
-        //
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
 
         public IActionResult Create()
         {
